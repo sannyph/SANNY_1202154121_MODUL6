@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.spy_support.sanny_1202154121_modul6">
-    <uses-permission android:name="android.permission.ACCESS_INTERNET">
 
-    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,7 +22,11 @@
             android:name=".home"
             android:label="@string/title_activity_menu_utama"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".upload_photo"></activity>
+        <activity android:name=".upload_photo" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

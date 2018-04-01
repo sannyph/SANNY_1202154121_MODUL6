@@ -66,9 +66,9 @@ public class MainActivity extends Activity {
                                 if (task.isSuccessful()){
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     assert user != null;
-                                    Toast.makeText(MainActivity.this, "Regis berhasil", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MainActivity.this, "Registrasi berhasil", Toast.LENGTH_SHORT).show();
                                 }else {
-                                    Toast.makeText(MainActivity.this, "Regis GAGAL", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MainActivity.this, "Registrasi gagal!", Toast.LENGTH_SHORT).show();
                                 }
 
                             }
@@ -97,11 +97,11 @@ public class MainActivity extends Activity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){
-                                    Log.d("MainActivity", "sukses");
+                                    Log.d("MainActivity", "berhasil");
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     loginUpdate(user);
                                 }else {
-                                    Log.d("MainActivity", "gagal", task.getException());
+                                    Log.d("MainActivity", "gagal!", task.getException());
                                     loginUpdate(null);
                                 }
                             }
@@ -115,6 +115,6 @@ public class MainActivity extends Activity {
             Toast.makeText(MainActivity.this, "berhasil", Toast.LENGTH_SHORT).show();
             return;
         }
-        Toast.makeText(MainActivity.this, "GAGAL", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "gagal!", Toast.LENGTH_SHORT).show();
     }
 }
