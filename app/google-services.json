@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949016410677",
+    "firebase_url": "https://sanny1202154121modul6.firebaseio.com",
+    "project_id": "sanny1202154121modul6",
+    "storage_bucket": "sanny1202154121modul6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949016410677:android:21f40894adfedcf4",
+        "android_client_info": {
+          "package_name": "com.example.spy_support.sanny_1202154121_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949016410677-d5vaphbthmkpkkupdvd66og7kflqg291.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spy_support.sanny_1202154121_modul6",
+            "certificate_hash": "7801e0414dd4af15ede695137a361c772bed814e"
+          }
+        },
+        {
+          "client_id": "949016410677-bfm0miml2ufi2cp5kksav2lh6keaqc45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpnT26SuMD71XSOKkgIbLzq6RAHq4kHqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949016410677-bfm0miml2ufi2cp5kksav2lh6keaqc45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

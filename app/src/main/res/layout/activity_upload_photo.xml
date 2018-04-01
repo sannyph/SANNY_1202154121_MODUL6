@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.spy_support.sanny_1202154121_modul6.upload_photo">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Choose"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFF"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Write your post..."
+        android:inputType="textPersonName" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/fab_margin"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+</LinearLayout>
